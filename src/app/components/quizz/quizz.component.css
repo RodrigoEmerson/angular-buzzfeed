@@ -2,7 +2,6 @@
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid blue;
 }
 
 .quizz_logo{
@@ -14,7 +13,8 @@
 }
 
 .quizz_logo > h3{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
