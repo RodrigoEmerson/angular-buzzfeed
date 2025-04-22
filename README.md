@@ -1,7 +1,8 @@
-# Atualizações
-- Imagem não carrega pelo caminho local src\assets\imgs\logo.png 
-- Imagem carregada a partir do Github, link https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/logo.png?raw=true
+# Atualizações:
 
+- A imagem não está sendo carregada a partir do caminho local: src\assets\imgs\logo.png.
+
+- A imagem foi carregada com sucesso a partir do repositório no GitHub, através do seguinte link: https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/logo.png?raw=true.
   
 
 
