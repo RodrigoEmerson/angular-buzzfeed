@@ -1,6 +1,6 @@
 # Atualizações
-- Não sei o motivo da imagem src\assets\imgs\logo.png, carregando no navegador.
-- Foto carregada a partir do Github, link https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/logo.png?raw=true
+- Imagem não carrega pelo caminho local src\assets\imgs\logo.png 
+- Imagem carregada a partir do Github, link https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/logo.png?raw=true
 
   
 
