@@ -1,67 +1,74 @@
-# Atualizações:
+# Angular Buzzfeed
 
-- A imagem não está sendo carregada a partir do caminho local: src\assets\imgs\logo.png.
+Projeto desenvolvido em Angular inspirado no famoso site de quizzes Buzzfeed. O objetivo é criar uma aplicação web interativa onde o usuário pode responder perguntas e receber um resultado personalizado ao final.
 
-- A imagem foi carregada com sucesso a partir do repositório no GitHub, através do seguinte link: https://github.com/felipeAguiarCode/angular-buzzfeed-quizz-clone/blob/main/src/assets/imgs/logo.png?raw=true.
-  
+## Descrição
 
+O Angular Buzzfeed é um projeto de quiz online, como desafio da Digital Innovation One (DIO). Onde o usuário responde a uma série de perguntas e, com base em suas respostas, recebe um resultado personalizado. O projeto utiliza Angular para o frontend, proporcionando uma experiência dinâmica e responsiva.
 
-# AngularBuzzfeed
+## O que você vai aprender desenvolvendo este projeto
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+- Estruturação de projetos Angular
+- Criação e uso de componentes, serviços e módulos
+- Manipulação de dados e estados no Angular
+- Utilização de diretivas e data binding
+- Roteamento de páginas
+- Boas práticas de organização de código
+- Consumo de assets locais e externos
+- Estilização com CSS/SCSS no Angular
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+- Quiz interativo com múltiplas perguntas
+- Cálculo de resultado baseado nas respostas do usuário
+- Exibição dinâmica de perguntas e respostas
+- Página de resultado personalizada
+- Layout responsivo
+- Utilização de imagens locais e externas
+
+## Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (versão recomendada: >= 18.x)
+- [Angular CLI](https://angular.io/cli) (versão recomendada: >= 15.x)
+- npm (gerenciador de pacotes do Node)
+
+## Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/RodrigoEmerson/angular-buzzfeed.git
+cd angular-buzzfeed
+npm install
+```
+
+## Como Executar
+
+Para iniciar o servidor de desenvolvimento, execute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abra o navegador e acesse `http://localhost:4200/` para visualizar a aplicação.
 
-## Code scaffolding
+## Exemplo de Uso
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Acesse a aplicação no navegador.
+2. Clique em "Iniciar Quiz".
+3. Responda às perguntas apresentadas.
+4. Ao final, veja o resultado personalizado de acordo com suas respostas.
 
-```bash
-ng generate component component-name
-```
+## Observações
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Caso a imagem do logo não carregue pelo caminho local (`src/assets/imgs/logo.png`), utilize o link direto do GitHub:  
+  `https://github.com/RodrigoEmerson/angular-buzzfeed/blob/main/src/assets/imgs/logo.png?raw=true`
+- O projeto pode ser expandido com novos quizzes, integração com backend, autenticação de usuários, etc.
 
-```bash
-ng generate --help
-```
+## Autor
 
-## Building
+Desenvolvido por [Rodrigo Emerson](https://github.com/RodrigoEmerson).
 
-To build the project run:
+## Licença
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
